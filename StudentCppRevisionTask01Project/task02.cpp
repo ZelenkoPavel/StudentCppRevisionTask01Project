@@ -27,5 +27,14 @@
 */
 
 int task02(int a, int b) {
-	return 0;
+	int result;
+	if (a > b) {
+		return 1;
+	}
+	else if (a < b) {
+		return 2;
+	}
+	else {
+		return 0;
+	}
 }
