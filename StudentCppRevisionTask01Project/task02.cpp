@@ -27,7 +27,6 @@
 */
 
 int task02(int a, int b) {
-	int result;
 	if (a > b) {
 		return 1;
 	}
